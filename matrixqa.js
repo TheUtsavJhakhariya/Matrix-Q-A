@@ -7,7 +7,7 @@
             const randomY = Math.floor(Math.random() * maxY);
             button.style.left = randomX + 'px';
             button.style.top = randomY + 'px';
-        });
+        }); 
 
         button.addEventListener('click', (e) => {
             e.stopPropagation();
