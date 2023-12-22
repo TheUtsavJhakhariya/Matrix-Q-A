@@ -5,7 +5,7 @@
         button.addEventListener('mousemove', () => {
             const randomX = Math.floor(Math.random() * maxX);
             const randomY = Math.floor(Math.random() * maxY);
-            button.style.left = randomX + 'px';
+            button.style.left = randomX + 'px'; 
             button.style.top = randomY + 'px';
         });  
 
